@@ -1,0 +1,30 @@
+event_id,package_id,trip_time,cause,failure_mode,caught,model_lead_h,flagged_system,dcs_alarm_lead_h,onset
+DT-0072,NGU-C,2026-02-01 07:00:00,Mechanical,Expander bearing,True,10.0,Expander,5.0,Gradual
+DT-0073,NGU-B,2026-02-10 05:00:00,Mechanical,Expander bearing,True,10.0,Expander,2.0,Gradual
+DT-0077,NGU-C,2026-03-01 18:00:00,Mechanical,Compressor vibration,True,20.0,Compressor,10.0,Gradual
+DT-0078,NGU-B,2026-03-16 08:00:00,Electrical,Motor relay trip,False,0.0,,0.0,Sudden
+DT-0079,NGU-C,2026-03-18 12:00:00,Mechanical,Expander bearing,True,68.0,Expander,33.0,Gradual
+DT-0080,NGU-B,2026-03-26 19:00:00,Utility,Cooling water loss,True,5.0,Compressor,6.0,Gradual
+DT-0082,NGU-C,2026-04-10 15:00:00,Mechanical,Coupling failure,False,0.0,,0.0,Sudden
+DT-0083,NGU-B,2026-04-23 22:00:00,Electrical,Motor relay trip,False,0.0,,0.0,Sudden
+DT-0084,NGU-C,2026-04-25 01:00:00,Mechanical,Expander bearing,True,37.0,Expander,19.0,Gradual
+DT-0085,NGU-C,2026-05-05 00:00:00,Process,PPU valve failure,False,0.0,,0.0,Sudden
+DT-0086,NGU-A,2026-05-15 03:00:00,Electrical,Grid power dip,False,0.0,,88.0,Sudden
+DT-0087,NGU-B,2026-05-15 03:00:00,Electrical,Grid power dip,False,0.0,,0.0,Sudden
+DT-0088,NGU-C,2026-05-15 03:00:00,Electrical,Grid power dip,False,0.0,,0.0,Sudden
+DT-0091,NGU-C,2026-05-26 12:00:00,Process,PPU breakthrough,True,10.0,PPU,9.0,Gradual
+DT-0093,NGU-A,2026-06-04 07:00:00,Process,PPU breakthrough,True,13.0,PPU,12.0,Gradual
+DT-0094,NGU-C,2026-06-07 18:00:00,Mechanical,Expander bearing,True,23.0,Expander,12.0,Gradual
+DT-0095,NGU-B,2026-06-11 18:00:00,Mechanical,Expander bearing,True,34.0,Expander,6.0,Gradual
+DT-0096,NGU-C,2026-06-18 00:00:00,Process,PPU valve failure,False,0.0,,0.0,Sudden
+DT-0097,NGU-A,2026-06-21 15:00:00,Process,PPU breakthrough,True,7.0,PPU,52.0,Gradual
+DT-0098,NGU-B,2026-06-23 12:00:00,Utility,Cooling water loss,True,3.0,Compressor,3.0,Gradual
+DT-0100,NGU-A,2026-07-22 11:00:00,Electrical,Grid power dip,False,0.0,,96.0,Sudden
+DT-0101,NGU-B,2026-07-22 11:00:00,Electrical,Grid power dip,False,0.0,,0.0,Sudden
+DT-0102,NGU-C,2026-07-22 11:00:00,Electrical,Grid power dip,True,12.0,Compressor,24.0,Sudden
+DT-0103,NGU-B,2026-08-09 14:00:00,Process,PPU breakthrough,True,4.0,PPU,4.0,Gradual
+DT-0104,NGU-C,2026-08-10 03:00:00,Mechanical,Compressor vibration,True,52.0,Compressor,25.0,Gradual
+DT-0108,NGU-C,2026-09-10 13:00:00,Process,PPU breakthrough,True,9.0,PPU,8.0,Gradual
+DT-0109,NGU-A,2026-09-20 04:00:00,Process,PPU breakthrough,True,8.0,PPU,7.0,Gradual
+DT-0110,NGU-C,2026-09-21 11:00:00,Mechanical,Coupling failure,False,0.0,,0.0,Sudden
+DT-0111,NGU-B,2026-09-22 22:00:00,Process,PPU breakthrough,True,13.0,PPU,10.0,Gradual

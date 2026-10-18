@@ -1,0 +1,4 @@
+package_id,tag_series,design_rate_nm3h,turnaround_month,note
+NGU-A,1xx,1000,January,Reference package
+NGU-B,2xx,1000,April,Commissioned with NGU-A
+NGU-C,3xx,1000,July,"Oldest package, highest fouling rate"

@@ -1,0 +1,55 @@
+tag,package_id,column,description,unit,alarm_l,alarm_ll,alarm_h,alarm_hh
+FI-101,NGU-A,feed_air_flow_nm3h,Feed air flow to cold box,Nm3/h,,,,
+PI-102,NGU-A,feed_air_discharge_pressure_barg,Feed air compressor discharge pressure,barg,8.8,,10.2,
+TI-103,NGU-A,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,degC,,,46.0,52.0
+JI-104,NGU-A,feed_air_compressor_power_kw,Feed air compressor motor power,kW,,,,
+VI-105,NGU-A,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,mm/s,,,7.1,11.0
+TI-106,NGU-A,cooling_water_supply_temp_degC,Cooling water supply temperature,degC,,,35.0,
+AI-107,NGU-A,ppu_outlet_co2_ppm,PPU outlet CO2,ppm,,,1.0,2.0
+AI-108,NGU-A,ppu_outlet_dewpoint_degC,PPU outlet dew point,degC,,,-60.0,-50.0
+TI-109,NGU-A,coldbox_temp_degC,Main exchanger cold end temperature,degC,,,-168.0,
+PDI-110,NGU-A,coldbox_dp_kpa,Main exchanger pressure drop,kPa,,,13.5,15.0
+SI-111,NGU-A,expander_speed_rpm,Turbo-expander speed,rpm,25500.0,,28500.0,
+TI-112,NGU-A,expander_bearing_temp_degC,Turbo-expander bearing temperature,degC,,,72.0,82.0
+VI-113,NGU-A,expander_vibration_um,Turbo-expander shaft vibration,um,,,40.0,60.0
+FIC-114,NGU-A,product_n2_flow_nm3h,Product N2 to plant header,Nm3/h,,,,
+FI-117,NGU-A,n2_vented_nm3h,Off-spec N2 vented to atmosphere,Nm3/h,,,,
+PIC-115,NGU-A,product_n2_pressure_barg,Product N2 pressure,barg,6.3,6.0,,
+AI-116,NGU-A,o2_content_ppm,O2 in product N2,ppm,,,5.0,10.0
+FI-201,NGU-B,feed_air_flow_nm3h,Feed air flow to cold box,Nm3/h,,,,
+PI-202,NGU-B,feed_air_discharge_pressure_barg,Feed air compressor discharge pressure,barg,8.8,,10.2,
+TI-203,NGU-B,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,degC,,,46.0,52.0
+JI-204,NGU-B,feed_air_compressor_power_kw,Feed air compressor motor power,kW,,,,
+VI-205,NGU-B,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,mm/s,,,7.1,11.0
+TI-206,NGU-B,cooling_water_supply_temp_degC,Cooling water supply temperature,degC,,,35.0,
+AI-207,NGU-B,ppu_outlet_co2_ppm,PPU outlet CO2,ppm,,,1.0,2.0
+AI-208,NGU-B,ppu_outlet_dewpoint_degC,PPU outlet dew point,degC,,,-60.0,-50.0
+TI-209,NGU-B,coldbox_temp_degC,Main exchanger cold end temperature,degC,,,-168.0,
+PDI-210,NGU-B,coldbox_dp_kpa,Main exchanger pressure drop,kPa,,,13.5,15.0
+SI-211,NGU-B,expander_speed_rpm,Turbo-expander speed,rpm,25500.0,,28500.0,
+TI-212,NGU-B,expander_bearing_temp_degC,Turbo-expander bearing temperature,degC,,,72.0,82.0
+VI-213,NGU-B,expander_vibration_um,Turbo-expander shaft vibration,um,,,40.0,60.0
+FIC-214,NGU-B,product_n2_flow_nm3h,Product N2 to plant header,Nm3/h,,,,
+FI-217,NGU-B,n2_vented_nm3h,Off-spec N2 vented to atmosphere,Nm3/h,,,,
+PIC-215,NGU-B,product_n2_pressure_barg,Product N2 pressure,barg,6.3,6.0,,
+AI-216,NGU-B,o2_content_ppm,O2 in product N2,ppm,,,5.0,10.0
+FI-301,NGU-C,feed_air_flow_nm3h,Feed air flow to cold box,Nm3/h,,,,
+PI-302,NGU-C,feed_air_discharge_pressure_barg,Feed air compressor discharge pressure,barg,8.8,,10.2,
+TI-303,NGU-C,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,degC,,,46.0,52.0
+JI-304,NGU-C,feed_air_compressor_power_kw,Feed air compressor motor power,kW,,,,
+VI-305,NGU-C,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,mm/s,,,7.1,11.0
+TI-306,NGU-C,cooling_water_supply_temp_degC,Cooling water supply temperature,degC,,,35.0,
+AI-307,NGU-C,ppu_outlet_co2_ppm,PPU outlet CO2,ppm,,,1.0,2.0
+AI-308,NGU-C,ppu_outlet_dewpoint_degC,PPU outlet dew point,degC,,,-60.0,-50.0
+TI-309,NGU-C,coldbox_temp_degC,Main exchanger cold end temperature,degC,,,-168.0,
+PDI-310,NGU-C,coldbox_dp_kpa,Main exchanger pressure drop,kPa,,,13.5,15.0
+SI-311,NGU-C,expander_speed_rpm,Turbo-expander speed,rpm,25500.0,,28500.0,
+TI-312,NGU-C,expander_bearing_temp_degC,Turbo-expander bearing temperature,degC,,,72.0,82.0
+VI-313,NGU-C,expander_vibration_um,Turbo-expander shaft vibration,um,,,40.0,60.0
+FIC-314,NGU-C,product_n2_flow_nm3h,Product N2 to plant header,Nm3/h,,,,
+FI-317,NGU-C,n2_vented_nm3h,Off-spec N2 vented to atmosphere,Nm3/h,,,,
+PIC-315,NGU-C,product_n2_pressure_barg,Product N2 pressure,barg,6.3,6.0,,
+AI-316,NGU-C,o2_content_ppm,O2 in product N2,ppm,,,5.0,10.0
+LI-901,PLANT,lin_tank_level_pct,LIN storage tank level,%,,,,
+FI-902,PLANT,lin_vaporised_nm3h,LIN vaporiser outlet to header,Nm3/h,,,,
+FI-903,PLANT,n2_demand_nm3h,N2 header flow to ammonia and urea plants,Nm3/h,,,,

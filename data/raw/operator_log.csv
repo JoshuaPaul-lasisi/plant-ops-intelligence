@@ -1,0 +1,18 @@
+log_id,timestamp,package_id,system,failure_mode,entry,fault_start,fault_cleared
+OL-0001,2024-10-15 22:00:00,NGU-C,Compressor,compressor_vibration,"Compressor vibration rising. Load reduced, lube oil filter changed.",2024-10-13 12:00:00,2024-10-16 18:00:00
+OL-0002,2024-10-19 15:00:00,NGU-C,PPU,ppu_breakthrough,"PPU outlet CO2 rising. Adsorber switched early, regeneration heater checked.",2024-10-19 10:00:00,2024-10-19 22:00:00
+OL-0003,2024-11-29 17:00:00,NGU-B,Expander,expander_bearing,Expander bearing temperature trending up. Changed over to standby expander.,2024-11-26 10:00:00,2024-11-30 01:00:00
+OL-0004,2024-12-27 20:00:00,NGU-C,Expander,expander_bearing,Expander bearing temperature trending up. Changed over to standby expander.,2024-12-25 19:00:00,2024-12-28 10:00:00
+OL-0005,2025-04-28 05:00:00,NGU-B,PPU,ppu_breakthrough,"PPU outlet CO2 rising. Adsorber switched early, regeneration heater checked.",2025-04-28 01:00:00,2025-04-28 15:00:00
+OL-0006,2025-05-16 07:00:00,NGU-C,Compressor,compressor_vibration,"Compressor vibration rising. Load reduced, lube oil filter changed.",2025-05-15 14:00:00,2025-05-17 02:00:00
+OL-0007,2025-05-26 07:00:00,NGU-C,Compressor,compressor_vibration,"Compressor vibration rising. Load reduced, lube oil filter changed.",2025-05-24 17:00:00,2025-05-26 16:00:00
+OL-0008,2025-06-01 22:00:00,NGU-A,PPU,ppu_breakthrough,"PPU outlet CO2 rising. Adsorber switched early, regeneration heater checked.",2025-06-01 17:00:00,2025-06-02 05:00:00
+OL-0009,2025-10-01 00:00:00,NGU-B,Expander,expander_bearing,Expander bearing temperature trending up. Changed over to standby expander.,2025-09-28 04:00:00,2025-10-01 19:00:00
+OL-0010,2025-10-06 19:00:00,NGU-B,Compressor,compressor_vibration,"Compressor vibration rising. Load reduced, lube oil filter changed.",2025-10-06 02:00:00,2025-10-07 18:00:00
+OL-0011,2025-10-11 01:00:00,NGU-B,PPU,ppu_breakthrough,"PPU outlet CO2 rising. Adsorber switched early, regeneration heater checked.",2025-10-10 08:00:00,2025-10-11 18:00:00
+OL-0012,2025-10-15 06:00:00,NGU-B,Compressor,compressor_vibration,"Compressor vibration rising. Load reduced, lube oil filter changed.",2025-10-13 23:00:00,2025-10-15 13:00:00
+OL-0013,2025-10-23 08:00:00,NGU-A,PPU,ppu_breakthrough,"PPU outlet CO2 rising. Adsorber switched early, regeneration heater checked.",2025-10-23 01:00:00,2025-10-24 08:00:00
+OL-0014,2026-01-25 09:00:00,NGU-B,PPU,ppu_breakthrough,"PPU outlet CO2 rising. Adsorber switched early, regeneration heater checked.",2026-01-24 21:00:00,2026-01-25 16:00:00
+OL-0015,2026-03-15 14:00:00,NGU-A,Expander,expander_bearing,Expander bearing temperature trending up. Changed over to standby expander.,2026-03-15 01:00:00,2026-03-16 11:00:00
+OL-0016,2026-06-03 16:00:00,NGU-B,Expander,expander_bearing,Expander bearing temperature trending up. Changed over to standby expander.,2026-06-02 08:00:00,2026-06-04 12:00:00
+OL-0017,2026-06-25 19:00:00,NGU-C,PPU,ppu_breakthrough,"PPU outlet CO2 rising. Adsorber switched early, regeneration heater checked.",2026-06-25 15:00:00,2026-06-26 03:00:00

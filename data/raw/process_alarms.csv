@@ -1,0 +1,546 @@
+alarm_id,timestamp,package_id,tag,parameter,description,alarm_type,value,alarm_limit,unit,hours_to_next_unplanned_trip,preceding_downtime_event
+AL-00001,2024-10-08 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,463.0,False
+AL-00002,2024-10-14 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,119.0,False
+AL-00003,2024-10-15 08:00:00,NGU-A,AI-107,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.079,1.0,ppm,10.0,True
+AL-00004,2024-10-15 11:00:00,NGU-A,AI-107,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.47,2.0,ppm,7.0,True
+AL-00005,2024-10-15 12:00:00,NGU-A,AI-108,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-58.62,-60.0,degC,6.0,True
+AL-00006,2024-10-15 13:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.76,46.0,degC,293.0,False
+AL-00007,2024-10-15 14:00:00,NGU-A,PDI-110,coldbox_dp_kpa,Main exchanger pressure drop,H,13.85,13.5,kPa,4.0,True
+AL-00008,2024-10-15 15:00:00,NGU-A,AI-108,ppu_outlet_dewpoint_degC,PPU outlet dew point,HH,-49.01,-50.0,degC,3.0,True
+AL-00009,2024-10-15 15:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,6.8,5.0,ppm,3.0,True
+AL-00010,2024-10-15 15:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,H,7.13,7.1,mm/s,291.0,False
+AL-00011,2024-10-15 16:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,HH,15.3,10.0,ppm,2.0,True
+AL-00012,2024-10-15 16:00:00,NGU-A,PDI-110,coldbox_dp_kpa,Main exchanger pressure drop,HH,15.01,15.0,kPa,2.0,True
+AL-00013,2024-10-19 12:00:00,NGU-C,AI-307,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.112,1.0,ppm,198.0,False
+AL-00014,2024-10-19 14:00:00,NGU-C,AI-307,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.913,2.0,ppm,196.0,False
+AL-00015,2024-10-19 14:00:00,NGU-C,AI-308,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-59.08,-60.0,degC,196.0,False
+AL-00016,2024-10-23 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,103.0,False
+AL-00017,2024-11-13 23:00:00,NGU-C,AI-307,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.603,1.0,ppm,6.0,True
+AL-00018,2024-11-14 00:00:00,NGU-C,AI-307,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.328,2.0,ppm,5.0,True
+AL-00019,2024-11-14 01:00:00,NGU-C,AI-308,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-57.57,-60.0,degC,4.0,True
+AL-00020,2024-11-14 02:00:00,NGU-C,PDI-310,coldbox_dp_kpa,Main exchanger pressure drop,H,14.08,13.5,kPa,3.0,True
+AL-00021,2024-11-14 03:00:00,NGU-C,AI-308,ppu_outlet_dewpoint_degC,PPU outlet dew point,HH,-47.11,-50.0,degC,2.0,True
+AL-00022,2024-11-14 03:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,9.61,5.0,ppm,2.0,True
+AL-00023,2024-11-14 04:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,HH,28.97,10.0,ppm,1.0,True
+AL-00024,2024-11-14 04:00:00,NGU-C,PDI-310,coldbox_dp_kpa,Main exchanger pressure drop,HH,16.13,15.0,kPa,1.0,True
+AL-00025,2024-11-16 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,1039.0,False
+AL-00026,2024-11-16 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,1315.0,False
+AL-00027,2024-11-20 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,267.0,False
+AL-00028,2024-11-26 13:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.04,46.0,degC,121.0,False
+AL-00029,2024-11-27 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.13,46.0,degC,98.0,False
+AL-00030,2024-11-27 17:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.02,46.0,degC,93.0,False
+AL-00031,2024-11-28 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.08,46.0,degC,75.0,False
+AL-00032,2024-11-29 06:00:00,NGU-B,VI-213,expander_vibration_um,Turbo-expander shaft vibration,H,41.57,40.0,um,1008.0,False
+AL-00033,2024-11-29 12:00:00,NGU-B,TI-212,expander_bearing_temp_degC,Turbo-expander bearing temperature,H,72.03,72.0,degC,1002.0,False
+AL-00034,2024-11-29 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.18,46.0,degC,50.0,False
+AL-00035,2024-11-30 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.64,46.0,degC,27.0,True
+AL-00036,2024-11-30 22:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,H,7.33,7.1,mm/s,16.0,True
+AL-00037,2024-12-01 09:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,HH,11.34,11.0,mm/s,5.0,True
+AL-00038,2024-12-01 13:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,HH,52.28,52.0,degC,1.0,True
+AL-00039,2024-12-08 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,787.0,False
+AL-00040,2024-12-12 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,161.0,False
+AL-00041,2024-12-15 14:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.11,46.0,degC,86.0,False
+AL-00042,2024-12-16 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.05,46.0,degC,65.0,False
+AL-00043,2024-12-17 14:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.33,46.0,degC,38.0,True
+AL-00044,2024-12-18 13:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.23,46.0,degC,15.0,True
+AL-00045,2024-12-19 00:00:00,NGU-C,AI-307,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.929,1.0,ppm,4.0,True
+AL-00046,2024-12-19 01:00:00,NGU-C,AI-307,ppu_outlet_co2_ppm,PPU outlet CO2,HH,3.302,2.0,ppm,3.0,True
+AL-00047,2024-12-19 01:00:00,NGU-C,AI-308,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-58.19,-60.0,degC,3.0,True
+AL-00048,2024-12-19 02:00:00,NGU-C,PDI-310,coldbox_dp_kpa,Main exchanger pressure drop,H,14.48,13.5,kPa,2.0,True
+AL-00049,2024-12-19 03:00:00,NGU-C,AI-308,ppu_outlet_dewpoint_degC,PPU outlet dew point,HH,-40.15,-50.0,degC,1.0,True
+AL-00050,2024-12-19 03:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,HH,29.3,10.0,ppm,1.0,True
+AL-00051,2024-12-19 03:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,29.3,5.0,ppm,1.0,True
+AL-00052,2024-12-19 03:00:00,NGU-C,PDI-310,coldbox_dp_kpa,Main exchanger pressure drop,HH,16.14,15.0,kPa,1.0,True
+AL-00053,2024-12-20 15:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.27,46.0,degC,826.0,False
+AL-00054,2024-12-24 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,127.0,False
+AL-00055,2024-12-24 15:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.05,46.0,degC,730.0,False
+AL-00056,2024-12-25 13:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.69,46.0,degC,708.0,False
+AL-00057,2024-12-27 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.01,46.0,degC,661.0,False
+AL-00058,2024-12-27 13:00:00,NGU-C,VI-313,expander_vibration_um,Turbo-expander shaft vibration,H,41.31,40.0,um,660.0,False
+AL-00059,2024-12-27 17:00:00,NGU-C,TI-312,expander_bearing_temp_degC,Turbo-expander bearing temperature,H,72.78,72.0,degC,656.0,False
+AL-00060,2024-12-28 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.06,46.0,degC,639.0,False
+AL-00061,2024-12-29 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.46,46.0,degC,615.0,False
+AL-00062,2024-12-29 11:00:00,NGU-A,VI-113,expander_vibration_um,Turbo-expander shaft vibration,H,43.43,40.0,um,7.0,True
+AL-00063,2024-12-29 13:00:00,NGU-A,TI-112,expander_bearing_temp_degC,Turbo-expander bearing temperature,H,74.2,72.0,degC,5.0,True
+AL-00064,2024-12-29 15:00:00,NGU-A,VI-113,expander_vibration_um,Turbo-expander shaft vibration,HH,62.85,60.0,um,3.0,True
+AL-00065,2024-12-29 16:00:00,NGU-A,TI-112,expander_bearing_temp_degC,Turbo-expander bearing temperature,HH,83.06,82.0,degC,2.0,True
+AL-00066,2024-12-30 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.06,46.0,degC,591.0,False
+AL-00067,2024-12-30 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,47.05,46.0,degC,589.0,False
+AL-00068,2024-12-31 13:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.31,46.0,degC,564.0,False
+AL-00069,2025-01-01 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.59,46.0,degC,541.0,False
+AL-00070,2025-01-02 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.68,46.0,degC,518.0,False
+AL-00071,2025-01-03 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.33,46.0,degC,493.0,False
+AL-00072,2025-01-04 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.58,46.0,degC,470.0,False
+AL-00073,2025-01-05 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.29,46.0,degC,447.0,False
+AL-00074,2025-01-06 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.74,46.0,degC,423.0,False
+AL-00075,2025-01-07 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.56,46.0,degC,400.0,False
+AL-00076,2025-01-08 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.71,46.0,degC,374.0,False
+AL-00077,2025-01-09 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.08,46.0,degC,350.0,False
+AL-00078,2025-01-10 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.13,46.0,degC,328.0,False
+AL-00079,2025-01-11 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.22,46.0,degC,302.0,False
+AL-00080,2025-01-12 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.16,46.0,degC,279.0,False
+AL-00081,2025-01-13 07:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.25,46.0,degC,258.0,False
+AL-00082,2025-01-14 07:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.17,46.0,degC,234.0,False
+AL-00083,2025-01-14 13:00:00,NGU-B,TI-206,cooling_water_supply_temp_degC,Cooling water supply temperature,H,35.12,35.0,degC,133.0,False
+AL-00084,2025-01-14 15:00:00,NGU-C,TI-306,cooling_water_supply_temp_degC,Cooling water supply temperature,H,35.13,35.0,degC,226.0,False
+AL-00085,2025-01-15 08:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.03,46.0,degC,209.0,False
+AL-00086,2025-01-16 08:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.34,46.0,degC,185.0,False
+AL-00087,2025-01-17 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.64,46.0,degC,160.0,False
+AL-00088,2025-01-18 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.48,46.0,degC,136.0,False
+AL-00089,2025-01-19 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.84,46.0,degC,112.0,False
+AL-00090,2025-01-20 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.56,46.0,degC,88.0,False
+AL-00091,2025-01-20 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,86.0,False
+AL-00092,2025-01-21 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.03,46.0,degC,64.0,False
+AL-00093,2025-01-22 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.32,46.0,degC,38.0,True
+AL-00094,2025-01-23 05:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.2,46.0,degC,20.0,True
+AL-00095,2025-01-23 09:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,H,7.39,7.1,mm/s,16.0,True
+AL-00096,2025-01-23 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,396.0,False
+AL-00097,2025-01-23 14:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,HH,52.47,52.0,degC,11.0,True
+AL-00098,2025-01-23 20:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,HH,11.07,11.0,mm/s,5.0,True
+AL-00099,2025-01-26 13:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.19,46.0,degC,443.0,False
+AL-00100,2025-01-27 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.13,46.0,degC,423.0,False
+AL-00101,2025-01-28 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.48,46.0,degC,398.0,False
+AL-00102,2025-01-29 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.2,46.0,degC,373.0,False
+AL-00103,2025-01-30 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.22,46.0,degC,349.0,False
+AL-00104,2025-01-31 08:00:00,NGU-A,AI-107,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.253,1.0,ppm,12.0,True
+AL-00105,2025-01-31 11:00:00,NGU-A,AI-107,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.356,2.0,ppm,9.0,True
+AL-00106,2025-01-31 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.24,46.0,degC,324.0,False
+AL-00107,2025-01-31 13:00:00,NGU-A,AI-108,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-58.53,-60.0,degC,7.0,True
+AL-00108,2025-01-31 16:00:00,NGU-A,PDI-110,coldbox_dp_kpa,Main exchanger pressure drop,H,13.55,13.5,kPa,4.0,True
+AL-00109,2025-01-31 17:00:00,NGU-A,AI-108,ppu_outlet_dewpoint_degC,PPU outlet dew point,HH,-48.72,-50.0,degC,3.0,True
+AL-00110,2025-01-31 17:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,9.32,5.0,ppm,3.0,True
+AL-00111,2025-01-31 18:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,HH,17.14,10.0,ppm,2.0,True
+AL-00112,2025-02-01 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.25,46.0,degC,302.0,False
+AL-00113,2025-02-02 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.82,46.0,degC,278.0,False
+AL-00114,2025-02-03 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.55,46.0,degC,254.0,False
+AL-00115,2025-02-03 21:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.14,46.0,degC,243.0,False
+AL-00116,2025-02-04 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.24,46.0,degC,229.0,False
+AL-00117,2025-02-05 13:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.17,46.0,degC,203.0,False
+AL-00118,2025-02-06 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.01,46.0,degC,180.0,False
+AL-00119,2025-02-07 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.58,46.0,degC,158.0,False
+AL-00120,2025-02-07 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,36.0,True
+AL-00121,2025-02-08 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.35,46.0,degC,133.0,False
+AL-00122,2025-02-08 15:00:00,NGU-B,TI-203,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.1,46.0,degC,8.0,True
+AL-00123,2025-02-08 15:00:00,NGU-B,VI-205,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,H,7.4,7.1,mm/s,8.0,True
+AL-00124,2025-02-08 21:00:00,NGU-B,VI-205,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,HH,11.4,11.0,mm/s,2.0,True
+AL-00125,2025-02-09 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.14,46.0,degC,110.0,False
+AL-00126,2025-02-10 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.28,46.0,degC,85.0,False
+AL-00127,2025-02-11 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,61.0,False
+AL-00128,2025-02-11 13:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.23,46.0,degC,59.0,False
+AL-00129,2025-02-12 13:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.21,46.0,degC,35.0,True
+AL-00130,2025-02-13 07:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.61,46.0,degC,17.0,True
+AL-00131,2025-02-13 07:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,H,7.31,7.1,mm/s,17.0,True
+AL-00132,2025-02-13 19:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,HH,11.27,11.0,mm/s,5.0,True
+AL-00133,2025-02-15 13:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.54,46.0,degC,503.0,False
+AL-00134,2025-02-16 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.39,46.0,degC,482.0,False
+AL-00135,2025-02-17 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.36,46.0,degC,456.0,False
+AL-00136,2025-02-18 15:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.08,46.0,degC,429.0,False
+AL-00137,2025-02-19 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.14,46.0,degC,408.0,False
+AL-00138,2025-02-19 16:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.31,46.0,degC,404.0,False
+AL-00139,2025-02-20 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.44,46.0,degC,384.0,False
+AL-00140,2025-02-21 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.16,46.0,degC,362.0,False
+AL-00141,2025-02-22 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.73,46.0,degC,336.0,False
+AL-00142,2025-02-23 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.19,46.0,degC,314.0,False
+AL-00143,2025-02-24 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.14,46.0,degC,290.0,False
+AL-00144,2025-02-25 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,381.0,False
+AL-00145,2025-02-25 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.25,46.0,degC,265.0,False
+AL-00146,2025-02-26 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.42,46.0,degC,241.0,False
+AL-00147,2025-02-27 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.14,46.0,degC,219.0,False
+AL-00148,2025-02-28 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.11,46.0,degC,195.0,False
+AL-00149,2025-03-01 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.91,46.0,degC,168.0,False
+AL-00150,2025-03-02 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.12,46.0,degC,146.0,False
+AL-00151,2025-03-03 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.33,46.0,degC,121.0,False
+AL-00152,2025-03-04 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.51,46.0,degC,96.0,False
+AL-00153,2025-03-05 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.33,46.0,degC,74.0,False
+AL-00154,2025-03-06 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.67,46.0,degC,51.0,False
+AL-00155,2025-03-07 00:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,H,7.2,7.1,mm/s,36.0,True
+AL-00156,2025-03-08 01:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,HH,11.02,11.0,mm/s,11.0,True
+AL-00157,2025-03-08 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,HH,52.01,52.0,degC,3.0,True
+AL-00158,2025-03-08 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,117.0,False
+AL-00159,2025-03-11 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.05,46.0,degC,302.0,False
+AL-00160,2025-03-12 07:00:00,NGU-A,VI-105,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,H,7.11,7.1,mm/s,25.0,True
+AL-00161,2025-03-12 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.19,46.0,degC,277.0,False
+AL-00162,2025-03-13 06:00:00,NGU-A,VI-105,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,HH,11.19,11.0,mm/s,2.0,True
+AL-00163,2025-03-13 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.29,46.0,degC,253.0,False
+AL-00164,2025-03-14 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.09,46.0,degC,231.0,False
+AL-00165,2025-03-14 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.1,46.0,degC,229.0,False
+AL-00166,2025-03-15 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.13,46.0,degC,205.0,False
+AL-00167,2025-03-16 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,229.0,False
+AL-00168,2025-03-16 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.02,46.0,degC,182.0,False
+AL-00169,2025-03-17 08:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.12,46.0,degC,161.0,False
+AL-00170,2025-03-18 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.11,46.0,degC,136.0,False
+AL-00171,2025-03-19 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.62,46.0,degC,110.0,False
+AL-00172,2025-03-20 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.44,46.0,degC,87.0,False
+AL-00173,2025-03-21 08:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.01,46.0,degC,65.0,False
+AL-00174,2025-03-22 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.14,46.0,degC,40.0,True
+AL-00175,2025-03-23 07:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.98,46.0,degC,18.0,True
+AL-00176,2025-03-23 10:00:00,NGU-C,VI-313,expander_vibration_um,Turbo-expander shaft vibration,H,41.2,40.0,um,15.0,True
+AL-00177,2025-03-23 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,14.0,True
+AL-00178,2025-03-23 12:00:00,NGU-C,TI-312,expander_bearing_temp_degC,Turbo-expander bearing temperature,H,73.0,72.0,degC,13.0,True
+AL-00179,2025-03-23 19:00:00,NGU-C,TI-312,expander_bearing_temp_degC,Turbo-expander bearing temperature,HH,82.06,82.0,degC,6.0,True
+AL-00180,2025-03-23 19:00:00,NGU-C,VI-313,expander_vibration_um,Turbo-expander shaft vibration,HH,61.32,60.0,um,6.0,True
+AL-00181,2025-03-23 22:00:00,NGU-C,TI-312,expander_bearing_temp_degC,Turbo-expander bearing temperature,HH,85.51,82.0,degC,3.0,True
+AL-00182,2025-03-23 22:00:00,NGU-C,TI-312,expander_bearing_temp_degC,Turbo-expander bearing temperature,H,85.51,72.0,degC,3.0,True
+AL-00183,2025-03-23 22:00:00,NGU-C,VI-313,expander_vibration_um,Turbo-expander shaft vibration,HH,69.84,60.0,um,3.0,True
+AL-00184,2025-03-23 22:00:00,NGU-C,VI-313,expander_vibration_um,Turbo-expander shaft vibration,H,69.84,40.0,um,3.0,True
+AL-00185,2025-03-25 18:00:00,NGU-B,AI-207,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.151,1.0,ppm,6.0,True
+AL-00186,2025-03-25 20:00:00,NGU-B,AI-207,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.897,2.0,ppm,4.0,True
+AL-00187,2025-03-25 20:00:00,NGU-B,PDI-210,coldbox_dp_kpa,Main exchanger pressure drop,H,13.72,13.5,kPa,4.0,True
+AL-00188,2025-03-25 21:00:00,NGU-B,AI-208,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-55.22,-60.0,degC,3.0,True
+AL-00189,2025-03-25 22:00:00,NGU-B,AI-208,ppu_outlet_dewpoint_degC,PPU outlet dew point,HH,-48.67,-50.0,degC,2.0,True
+AL-00190,2025-03-25 22:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.08,5.0,ppm,2.0,True
+AL-00191,2025-03-25 22:00:00,NGU-B,PDI-210,coldbox_dp_kpa,Main exchanger pressure drop,HH,15.37,15.0,kPa,2.0,True
+AL-00192,2025-03-25 23:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,HH,28.89,10.0,ppm,1.0,True
+AL-00193,2025-03-26 06:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.04,46.0,degC,261.0,False
+AL-00194,2025-03-27 07:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.27,46.0,degC,236.0,False
+AL-00195,2025-03-28 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.21,46.0,degC,209.0,False
+AL-00196,2025-03-29 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.73,46.0,degC,184.0,False
+AL-00197,2025-03-30 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.69,46.0,degC,161.0,False
+AL-00198,2025-03-31 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.39,46.0,degC,136.0,False
+AL-00199,2025-04-01 14:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.21,46.0,degC,109.0,False
+AL-00200,2025-04-02 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.36,46.0,degC,87.0,False
+AL-00201,2025-04-03 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.17,46.0,degC,65.0,False
+AL-00202,2025-04-04 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.13,46.0,degC,40.0,True
+AL-00203,2025-04-05 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.27,46.0,degC,17.0,True
+AL-00204,2025-04-05 20:00:00,NGU-C,AI-307,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.294,1.0,ppm,7.0,True
+AL-00205,2025-04-05 22:00:00,NGU-C,AI-307,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.7,2.0,ppm,5.0,True
+AL-00206,2025-04-05 23:00:00,NGU-C,AI-308,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-56.83,-60.0,degC,4.0,True
+AL-00207,2025-04-05 23:00:00,NGU-C,PDI-310,coldbox_dp_kpa,Main exchanger pressure drop,H,13.86,13.5,kPa,4.0,True
+AL-00208,2025-04-06 01:00:00,NGU-C,AI-308,ppu_outlet_dewpoint_degC,PPU outlet dew point,HH,-48.41,-50.0,degC,2.0,True
+AL-00209,2025-04-06 01:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,HH,11.17,10.0,ppm,2.0,True
+AL-00210,2025-04-06 01:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,11.17,5.0,ppm,2.0,True
+AL-00211,2025-04-06 01:00:00,NGU-C,PDI-310,coldbox_dp_kpa,Main exchanger pressure drop,HH,15.44,15.0,kPa,2.0,True
+AL-00212,2025-04-07 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.43,46.0,degC,449.0,False
+AL-00213,2025-04-08 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.77,46.0,degC,425.0,False
+AL-00214,2025-04-09 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.47,46.0,degC,402.0,False
+AL-00215,2025-04-10 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.39,46.0,degC,380.0,False
+AL-00216,2025-04-11 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.46,46.0,degC,355.0,False
+AL-00217,2025-04-12 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.35,46.0,degC,330.0,False
+AL-00218,2025-04-13 03:00:00,NGU-A,TI-103,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,47.63,46.0,degC,3.0,True
+AL-00219,2025-04-13 05:00:00,NGU-A,TI-103,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,HH,54.67,52.0,degC,1.0,True
+AL-00220,2025-04-13 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.07,46.0,degC,308.0,False
+AL-00221,2025-04-14 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.57,46.0,degC,281.0,False
+AL-00222,2025-04-15 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.6,46.0,degC,259.0,False
+AL-00223,2025-04-16 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.07,46.0,degC,235.0,False
+AL-00224,2025-04-16 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,160.0,False
+AL-00225,2025-04-17 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.21,46.0,degC,211.0,False
+AL-00226,2025-04-18 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.48,46.0,degC,186.0,False
+AL-00227,2025-04-19 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.02,46.0,degC,163.0,False
+AL-00228,2025-04-20 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,1016.0,False
+AL-00229,2025-04-20 14:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.47,46.0,degC,135.0,False
+AL-00230,2025-04-21 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,114.0,False
+AL-00231,2025-04-21 13:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.19,46.0,degC,112.0,False
+AL-00232,2025-04-22 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.67,46.0,degC,89.0,False
+AL-00233,2025-04-22 15:00:00,NGU-A,VI-105,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,H,7.41,7.1,mm/s,12.0,True
+AL-00234,2025-04-23 01:00:00,NGU-A,VI-105,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,HH,11.21,11.0,mm/s,2.0,True
+AL-00235,2025-04-23 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.76,46.0,degC,67.0,False
+AL-00236,2025-04-24 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.93,46.0,degC,43.0,True
+AL-00237,2025-04-25 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.24,46.0,degC,20.0,True
+AL-00238,2025-04-26 17:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,47.77,46.0,degC,193.0,False
+AL-00239,2025-04-27 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.68,46.0,degC,174.0,False
+AL-00240,2025-04-28 03:00:00,NGU-B,AI-207,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.701,1.0,ppm,832.0,False
+AL-00241,2025-04-28 04:00:00,NGU-B,AI-207,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.773,2.0,ppm,831.0,False
+AL-00242,2025-04-28 05:00:00,NGU-B,AI-208,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-53.75,-60.0,degC,830.0,False
+AL-00243,2025-04-28 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.13,46.0,degC,151.0,False
+AL-00244,2025-04-29 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.06,46.0,degC,127.0,False
+AL-00245,2025-04-30 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.42,46.0,degC,103.0,False
+AL-00246,2025-05-01 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.17,46.0,degC,81.0,False
+AL-00247,2025-05-02 08:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.15,46.0,degC,58.0,False
+AL-00248,2025-05-03 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.37,46.0,degC,32.0,True
+AL-00249,2025-05-04 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.45,46.0,degC,8.0,True
+AL-00250,2025-05-04 16:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,HH,58.2,52.0,degC,2.0,True
+AL-00251,2025-05-05 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.19,46.0,degC,815.0,False
+AL-00252,2025-05-06 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.71,46.0,degC,789.0,False
+AL-00253,2025-05-07 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.62,46.0,degC,766.0,False
+AL-00254,2025-05-08 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.04,46.0,degC,742.0,False
+AL-00255,2025-05-09 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.04,46.0,degC,719.0,False
+AL-00256,2025-05-10 08:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.2,46.0,degC,696.0,False
+AL-00257,2025-05-11 08:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.17,46.0,degC,672.0,False
+AL-00258,2025-05-12 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.68,46.0,degC,646.0,False
+AL-00259,2025-05-13 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.5,46.0,degC,623.0,False
+AL-00260,2025-05-14 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.09,46.0,degC,598.0,False
+AL-00261,2025-05-15 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.1,46.0,degC,574.0,False
+AL-00262,2025-05-16 03:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,H,7.34,7.1,mm/s,557.0,False
+AL-00263,2025-05-16 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,392.0,False
+AL-00264,2025-05-17 08:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.42,46.0,degC,528.0,False
+AL-00265,2025-05-18 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.14,46.0,degC,502.0,False
+AL-00266,2025-05-19 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.52,46.0,degC,478.0,False
+AL-00267,2025-05-20 01:00:00,NGU-A,VI-113,expander_vibration_um,Turbo-expander shaft vibration,H,41.83,40.0,um,17.0,True
+AL-00268,2025-05-20 07:00:00,NGU-A,TI-112,expander_bearing_temp_degC,Turbo-expander bearing temperature,H,72.56,72.0,degC,11.0,True
+AL-00269,2025-05-20 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.34,46.0,degC,455.0,False
+AL-00270,2025-05-20 11:00:00,NGU-A,VI-113,expander_vibration_um,Turbo-expander shaft vibration,HH,60.15,60.0,um,7.0,True
+AL-00271,2025-05-20 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,453.0,False
+AL-00272,2025-05-20 13:00:00,NGU-A,SI-111,expander_speed_rpm,Turbo-expander speed,L,25239.0,25500.0,rpm,5.0,True
+AL-00273,2025-05-20 14:00:00,NGU-A,TI-112,expander_bearing_temp_degC,Turbo-expander bearing temperature,HH,82.29,82.0,degC,4.0,True
+AL-00274,2025-05-21 08:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.53,46.0,degC,432.0,False
+AL-00275,2025-05-22 06:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.13,46.0,degC,410.0,False
+AL-00276,2025-05-22 23:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.56,46.0,degC,393.0,False
+AL-00277,2025-05-23 02:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.29,46.0,degC,390.0,False
+AL-00278,2025-05-23 04:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.22,46.0,degC,388.0,False
+AL-00279,2025-05-24 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.67,46.0,degC,359.0,False
+AL-00280,2025-05-25 07:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.26,46.0,degC,337.0,False
+AL-00281,2025-05-25 22:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,H,7.16,7.1,mm/s,322.0,False
+AL-00282,2025-05-27 08:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.36,46.0,degC,288.0,False
+AL-00283,2025-05-28 07:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.07,46.0,degC,265.0,False
+AL-00284,2025-05-29 07:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.6,46.0,degC,241.0,False
+AL-00285,2025-05-30 06:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.09,46.0,degC,218.0,False
+AL-00286,2025-05-31 07:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.18,46.0,degC,193.0,False
+AL-00287,2025-06-01 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.43,46.0,degC,166.0,False
+AL-00288,2025-06-01 16:00:00,NGU-B,TI-203,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,47.53,46.0,degC,3.0,True
+AL-00289,2025-06-01 17:00:00,NGU-B,TI-203,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,HH,53.1,52.0,degC,2.0,True
+AL-00290,2025-06-01 19:00:00,NGU-A,AI-107,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.16,1.0,ppm,610.0,False
+AL-00291,2025-06-01 21:00:00,NGU-A,AI-107,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.813,2.0,ppm,608.0,False
+AL-00292,2025-06-01 22:00:00,NGU-A,AI-108,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-55.59,-60.0,degC,607.0,False
+AL-00293,2025-06-02 05:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.2,46.0,degC,147.0,False
+AL-00294,2025-06-03 05:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.26,46.0,degC,123.0,False
+AL-00295,2025-06-04 04:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.32,46.0,degC,100.0,False
+AL-00296,2025-06-05 07:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.31,46.0,degC,73.0,False
+AL-00297,2025-06-06 07:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.04,46.0,degC,49.0,False
+AL-00298,2025-06-07 07:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.26,46.0,degC,25.0,True
+AL-00299,2025-06-07 21:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,H,7.27,7.1,mm/s,11.0,True
+AL-00300,2025-06-08 05:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,HH,11.57,11.0,mm/s,3.0,True
+AL-00301,2025-06-08 07:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,HH,52.05,52.0,degC,1.0,True
+AL-00302,2025-06-09 16:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,48.83,46.0,degC,421.0,False
+AL-00303,2025-06-10 06:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.04,46.0,degC,407.0,False
+AL-00304,2025-06-10 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,402.0,False
+AL-00305,2025-06-11 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.32,46.0,degC,379.0,False
+AL-00306,2025-06-12 08:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.15,46.0,degC,357.0,False
+AL-00307,2025-06-12 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,354.0,False
+AL-00308,2025-06-13 08:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.48,46.0,degC,333.0,False
+AL-00309,2025-06-14 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.26,46.0,degC,307.0,False
+AL-00310,2025-06-15 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.2,46.0,degC,284.0,False
+AL-00311,2025-06-16 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.5,46.0,degC,260.0,False
+AL-00312,2025-06-17 08:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.21,46.0,degC,237.0,False
+AL-00313,2025-06-18 07:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.21,46.0,degC,214.0,False
+AL-00314,2025-06-19 08:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.23,46.0,degC,189.0,False
+AL-00315,2025-06-19 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,186.0,False
+AL-00316,2025-06-20 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.44,46.0,degC,164.0,False
+AL-00317,2025-06-21 07:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.5,46.0,degC,142.0,False
+AL-00318,2025-06-22 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.96,46.0,degC,116.0,False
+AL-00319,2025-06-23 07:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.42,46.0,degC,94.0,False
+AL-00320,2025-06-24 08:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.33,46.0,degC,69.0,False
+AL-00321,2025-06-25 08:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.55,46.0,degC,45.0,True
+AL-00322,2025-06-26 07:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,47.0,46.0,degC,22.0,True
+AL-00323,2025-06-27 04:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.32,46.0,degC,1.0,True
+AL-00324,2025-06-27 21:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,47.03,46.0,degC,646.0,False
+AL-00325,2025-06-28 09:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.38,46.0,degC,634.0,False
+AL-00326,2025-06-29 08:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.53,46.0,degC,611.0,False
+AL-00327,2025-06-30 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.5,46.0,degC,585.0,False
+AL-00328,2025-07-01 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.04,46.0,degC,560.0,False
+AL-00329,2025-07-02 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.53,46.0,degC,535.0,False
+AL-00330,2025-07-03 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.3,46.0,degC,512.0,False
+AL-00331,2025-07-04 10:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.34,46.0,degC,489.0,False
+AL-00332,2025-07-05 11:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.31,46.0,degC,464.0,False
+AL-00333,2025-07-06 12:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.26,46.0,degC,439.0,False
+AL-00334,2025-07-08 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,392.0,False
+AL-00335,2025-07-16 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,200.0,False
+AL-00336,2025-08-08 10:00:00,NGU-C,VI-313,expander_vibration_um,Turbo-expander shaft vibration,H,40.49,40.0,um,31.0,True
+AL-00337,2025-08-08 17:00:00,NGU-C,TI-312,expander_bearing_temp_degC,Turbo-expander bearing temperature,H,72.34,72.0,degC,24.0,True
+AL-00338,2025-08-09 02:00:00,NGU-C,VI-313,expander_vibration_um,Turbo-expander shaft vibration,HH,60.2,60.0,um,15.0,True
+AL-00339,2025-08-09 10:00:00,NGU-C,TI-312,expander_bearing_temp_degC,Turbo-expander bearing temperature,HH,82.8,82.0,degC,7.0,True
+AL-00340,2025-08-11 06:00:00,NGU-B,AI-207,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.448,1.0,ppm,5.0,True
+AL-00341,2025-08-11 07:00:00,NGU-B,AI-207,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.473,2.0,ppm,4.0,True
+AL-00342,2025-08-11 08:00:00,NGU-B,AI-208,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-57.34,-60.0,degC,3.0,True
+AL-00343,2025-08-11 09:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,6.2,5.0,ppm,2.0,True
+AL-00344,2025-08-11 09:00:00,NGU-B,PDI-210,coldbox_dp_kpa,Main exchanger pressure drop,H,13.82,13.5,kPa,2.0,True
+AL-00345,2025-08-11 10:00:00,NGU-B,AI-208,ppu_outlet_dewpoint_degC,PPU outlet dew point,HH,-41.86,-50.0,degC,1.0,True
+AL-00346,2025-08-11 10:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,HH,28.63,10.0,ppm,1.0,True
+AL-00347,2025-08-11 10:00:00,NGU-B,PDI-210,coldbox_dp_kpa,Main exchanger pressure drop,HH,15.25,15.0,kPa,1.0,True
+AL-00348,2025-08-12 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,395.0,False
+AL-00349,2025-08-12 13:00:00,NGU-A,AI-107,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.284,1.0,ppm,4.0,True
+AL-00350,2025-08-12 14:00:00,NGU-A,AI-107,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.682,2.0,ppm,3.0,True
+AL-00351,2025-08-12 15:00:00,NGU-A,AI-108,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-50.42,-60.0,degC,2.0,True
+AL-00352,2025-08-12 15:00:00,NGU-A,PDI-110,coldbox_dp_kpa,Main exchanger pressure drop,H,13.94,13.5,kPa,2.0,True
+AL-00353,2025-08-12 16:00:00,NGU-A,AI-108,ppu_outlet_dewpoint_degC,PPU outlet dew point,HH,-41.12,-50.0,degC,1.0,True
+AL-00354,2025-08-12 16:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,HH,29.16,10.0,ppm,1.0,True
+AL-00355,2025-08-12 16:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,29.16,5.0,ppm,1.0,True
+AL-00356,2025-08-12 16:00:00,NGU-A,PDI-110,coldbox_dp_kpa,Main exchanger pressure drop,HH,15.79,15.0,kPa,1.0,True
+AL-00357,2025-08-15 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,621.0,False
+AL-00358,2025-08-17 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,234.0,False
+AL-00359,2025-08-27 02:00:00,NGU-B,VI-205,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,H,7.59,7.1,mm/s,3.0,True
+AL-00360,2025-08-27 04:00:00,NGU-B,VI-205,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,HH,11.94,11.0,mm/s,1.0,True
+AL-00361,2025-08-28 16:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,H,7.21,7.1,mm/s,6.0,True
+AL-00362,2025-08-28 20:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,HH,11.15,11.0,mm/s,2.0,True
+AL-00363,2025-09-06 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,335.0,False
+AL-00364,2025-09-08 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,1048.0,False
+AL-00365,2025-09-09 23:00:00,NGU-A,AI-107,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.23,1.0,ppm,9.0,True
+AL-00366,2025-09-10 01:00:00,NGU-A,AI-107,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.196,2.0,ppm,7.0,True
+AL-00367,2025-09-10 02:00:00,NGU-A,AI-108,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-58.67,-60.0,degC,6.0,True
+AL-00368,2025-09-10 05:00:00,NGU-A,AI-108,ppu_outlet_dewpoint_degC,PPU outlet dew point,HH,-49.24,-50.0,degC,3.0,True
+AL-00369,2025-09-10 05:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,6.21,5.0,ppm,3.0,True
+AL-00370,2025-09-10 05:00:00,NGU-A,PDI-110,coldbox_dp_kpa,Main exchanger pressure drop,H,13.87,13.5,kPa,3.0,True
+AL-00371,2025-09-10 06:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,HH,14.6,10.0,ppm,2.0,True
+AL-00372,2025-09-10 07:00:00,NGU-A,PDI-110,coldbox_dp_kpa,Main exchanger pressure drop,HH,15.55,15.0,kPa,1.0,True
+AL-00373,2025-09-17 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,2403.0,False
+AL-00374,2025-09-19 15:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,H,7.14,7.1,mm/s,19.0,True
+AL-00375,2025-09-20 06:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,HH,11.21,11.0,mm/s,4.0,True
+AL-00376,2025-09-30 21:00:00,NGU-B,VI-213,expander_vibration_um,Turbo-expander shaft vibration,H,40.29,40.0,um,510.0,False
+AL-00377,2025-10-04 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,1995.0,False
+AL-00378,2025-10-06 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,235.0,False
+AL-00379,2025-10-10 16:00:00,NGU-B,AI-207,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.113,1.0,ppm,275.0,False
+AL-00380,2025-10-10 20:00:00,NGU-B,AI-207,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.166,2.0,ppm,271.0,False
+AL-00381,2025-10-10 23:00:00,NGU-B,AI-208,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-58.73,-60.0,degC,268.0,False
+AL-00382,2025-10-13 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,208.0,False
+AL-00383,2025-10-14 21:00:00,NGU-C,VI-313,expander_vibration_um,Turbo-expander shaft vibration,H,40.01,40.0,um,33.0,True
+AL-00384,2025-10-15 06:00:00,NGU-B,VI-205,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,H,7.15,7.1,mm/s,165.0,False
+AL-00385,2025-10-15 08:00:00,NGU-C,TI-312,expander_bearing_temp_degC,Turbo-expander bearing temperature,H,72.21,72.0,degC,22.0,True
+AL-00386,2025-10-15 17:00:00,NGU-C,VI-313,expander_vibration_um,Turbo-expander shaft vibration,HH,60.09,60.0,um,13.0,True
+AL-00387,2025-10-16 00:00:00,NGU-C,TI-312,expander_bearing_temp_degC,Turbo-expander bearing temperature,HH,82.2,82.0,degC,6.0,True
+AL-00388,2025-10-16 03:00:00,NGU-C,SI-311,expander_speed_rpm,Turbo-expander speed,L,25191.0,25500.0,rpm,3.0,True
+AL-00389,2025-10-21 13:00:00,NGU-B,AI-207,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.045,1.0,ppm,14.0,True
+AL-00390,2025-10-21 17:00:00,NGU-B,AI-207,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.283,2.0,ppm,10.0,True
+AL-00391,2025-10-21 19:00:00,NGU-B,AI-208,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-59.11,-60.0,degC,8.0,True
+AL-00392,2025-10-21 22:00:00,NGU-B,PDI-210,coldbox_dp_kpa,Main exchanger pressure drop,H,13.75,13.5,kPa,5.0,True
+AL-00393,2025-10-21 23:00:00,NGU-B,AI-208,ppu_outlet_dewpoint_degC,PPU outlet dew point,HH,-49.84,-50.0,degC,4.0,True
+AL-00394,2025-10-21 23:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,5.82,5.0,ppm,4.0,True
+AL-00395,2025-10-22 00:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,HH,10.79,10.0,ppm,3.0,True
+AL-00396,2025-10-22 01:00:00,NGU-B,PDI-210,coldbox_dp_kpa,Main exchanger pressure drop,HH,15.13,15.0,kPa,2.0,True
+AL-00397,2025-10-23 04:00:00,NGU-A,AI-107,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.199,1.0,ppm,1546.0,False
+AL-00398,2025-10-23 06:00:00,NGU-A,AI-107,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.443,2.0,ppm,1544.0,False
+AL-00399,2025-10-23 07:00:00,NGU-A,AI-108,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-56.71,-60.0,degC,1543.0,False
+AL-00400,2025-10-23 08:00:00,NGU-A,PDI-110,coldbox_dp_kpa,Main exchanger pressure drop,H,13.57,13.5,kPa,1542.0,False
+AL-00401,2025-11-09 16:00:00,NGU-B,VI-213,expander_vibration_um,Turbo-expander shaft vibration,H,40.16,40.0,um,10.0,True
+AL-00402,2025-11-09 18:00:00,NGU-B,TI-212,expander_bearing_temp_degC,Turbo-expander bearing temperature,H,72.13,72.0,degC,8.0,True
+AL-00403,2025-11-09 21:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,H,7.21,7.1,mm/s,34.0,True
+AL-00404,2025-11-09 22:00:00,NGU-B,VI-213,expander_vibration_um,Turbo-expander shaft vibration,HH,60.9,60.0,um,4.0,True
+AL-00405,2025-11-10 00:00:00,NGU-B,TI-212,expander_bearing_temp_degC,Turbo-expander bearing temperature,HH,82.54,82.0,degC,2.0,True
+AL-00406,2025-11-10 13:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.21,46.0,degC,18.0,True
+AL-00407,2025-11-10 21:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.09,46.0,degC,10.0,True
+AL-00408,2025-11-10 23:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,HH,11.08,11.0,mm/s,8.0,True
+AL-00409,2025-11-11 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,1083.0,False
+AL-00410,2025-11-17 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,397.0,False
+AL-00411,2025-11-19 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,435.0,False
+AL-00412,2025-12-10 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,387.0,False
+AL-00413,2025-12-14 07:00:00,NGU-B,AI-207,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.342,1.0,ppm,10.0,True
+AL-00414,2025-12-14 09:00:00,NGU-B,AI-207,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.155,2.0,ppm,8.0,True
+AL-00415,2025-12-14 11:00:00,NGU-B,AI-208,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-58.73,-60.0,degC,6.0,True
+AL-00416,2025-12-14 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,6.0,True
+AL-00417,2025-12-14 13:00:00,NGU-B,PDI-210,coldbox_dp_kpa,Main exchanger pressure drop,H,13.62,13.5,kPa,4.0,True
+AL-00418,2025-12-14 14:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,7.65,5.0,ppm,3.0,True
+AL-00419,2025-12-14 15:00:00,NGU-B,AI-208,ppu_outlet_dewpoint_degC,PPU outlet dew point,HH,-46.2,-50.0,degC,2.0,True
+AL-00420,2025-12-14 15:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,HH,16.18,10.0,ppm,2.0,True
+AL-00421,2025-12-14 16:00:00,NGU-B,PDI-210,coldbox_dp_kpa,Main exchanger pressure drop,HH,15.73,15.0,kPa,1.0,True
+AL-00422,2025-12-20 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,147.0,False
+AL-00423,2026-01-07 04:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,H,7.39,7.1,mm/s,3.0,True
+AL-00424,2026-01-07 06:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.07,46.0,degC,1.0,True
+AL-00425,2026-01-07 06:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,HH,12.36,11.0,mm/s,1.0,True
+AL-00426,2026-01-12 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,690.0,False
+AL-00427,2026-01-25 03:00:00,NGU-B,AI-207,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.164,1.0,ppm,386.0,False
+AL-00428,2026-01-25 06:00:00,NGU-B,AI-207,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.054,2.0,ppm,383.0,False
+AL-00429,2026-01-25 09:00:00,NGU-B,AI-208,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-59.36,-60.0,degC,380.0,False
+AL-00430,2026-01-25 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,164.0,False
+AL-00431,2026-01-29 01:00:00,NGU-A,TI-103,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.97,46.0,degC,3.0,True
+AL-00432,2026-01-29 03:00:00,NGU-A,TI-103,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,HH,54.9,52.0,degC,1.0,True
+AL-00433,2026-02-01 02:00:00,NGU-C,VI-313,expander_vibration_um,Turbo-expander shaft vibration,H,44.72,40.0,um,5.0,True
+AL-00434,2026-02-01 03:00:00,NGU-C,TI-312,expander_bearing_temp_degC,Turbo-expander bearing temperature,H,74.25,72.0,degC,4.0,True
+AL-00435,2026-02-01 05:00:00,NGU-C,TI-312,expander_bearing_temp_degC,Turbo-expander bearing temperature,HH,82.35,82.0,degC,2.0,True
+AL-00436,2026-02-01 05:00:00,NGU-C,VI-313,expander_vibration_um,Turbo-expander shaft vibration,HH,66.95,60.0,um,2.0,True
+AL-00437,2026-02-06 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,90.0,False
+AL-00438,2026-02-10 00:00:00,NGU-B,VI-213,expander_vibration_um,Turbo-expander shaft vibration,H,42.17,40.0,um,5.0,True
+AL-00439,2026-02-10 02:00:00,NGU-B,TI-212,expander_bearing_temp_degC,Turbo-expander bearing temperature,H,74.93,72.0,degC,3.0,True
+AL-00440,2026-02-10 03:00:00,NGU-B,VI-213,expander_vibration_um,Turbo-expander shaft vibration,HH,65.21,60.0,um,2.0,True
+AL-00441,2026-02-10 04:00:00,NGU-B,TI-212,expander_bearing_temp_degC,Turbo-expander bearing temperature,HH,84.91,82.0,degC,1.0,True
+AL-00442,2026-02-16 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,2104.0,False
+AL-00443,2026-02-24 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,127.0,False
+AL-00444,2026-03-01 08:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,H,7.15,7.1,mm/s,10.0,True
+AL-00445,2026-03-01 13:00:00,NGU-C,TI-303,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.59,46.0,degC,5.0,True
+AL-00446,2026-03-01 15:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,HH,11.16,11.0,mm/s,3.0,True
+AL-00447,2026-03-10 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,1576.0,False
+AL-00448,2026-03-12 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,145.0,False
+AL-00449,2026-03-14 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,45.0,True
+AL-00450,2026-03-17 03:00:00,NGU-C,VI-313,expander_vibration_um,Turbo-expander shaft vibration,H,40.63,40.0,um,33.0,True
+AL-00451,2026-03-17 08:00:00,NGU-C,TI-312,expander_bearing_temp_degC,Turbo-expander bearing temperature,H,72.15,72.0,degC,28.0,True
+AL-00452,2026-03-17 23:00:00,NGU-C,VI-313,expander_vibration_um,Turbo-expander shaft vibration,HH,61.05,60.0,um,13.0,True
+AL-00453,2026-03-18 05:00:00,NGU-C,TI-312,expander_bearing_temp_degC,Turbo-expander bearing temperature,HH,82.76,82.0,degC,7.0,True
+AL-00454,2026-03-26 13:00:00,NGU-B,TI-203,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.33,46.0,degC,6.0,True
+AL-00455,2026-03-26 16:00:00,NGU-B,TI-203,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,HH,55.04,52.0,degC,3.0,True
+AL-00456,2026-04-15 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,230.0,False
+AL-00457,2026-04-23 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,520.0,False
+AL-00458,2026-04-24 06:00:00,NGU-C,VI-313,expander_vibration_um,Turbo-expander shaft vibration,H,41.29,40.0,um,19.0,True
+AL-00459,2026-04-24 10:00:00,NGU-C,TI-312,expander_bearing_temp_degC,Turbo-expander bearing temperature,H,72.21,72.0,degC,15.0,True
+AL-00460,2026-04-24 17:00:00,NGU-C,VI-313,expander_vibration_um,Turbo-expander shaft vibration,HH,60.25,60.0,um,8.0,True
+AL-00461,2026-04-24 19:00:00,NGU-C,TI-312,expander_bearing_temp_degC,Turbo-expander bearing temperature,HH,82.32,82.0,degC,6.0,True
+AL-00462,2026-05-11 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,88.0,False
+AL-00463,2026-05-22 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,97.0,False
+AL-00464,2026-05-26 03:00:00,NGU-C,AI-307,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.251,1.0,ppm,9.0,True
+AL-00465,2026-05-26 05:00:00,NGU-C,AI-307,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.228,2.0,ppm,7.0,True
+AL-00466,2026-05-26 07:00:00,NGU-C,AI-308,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-57.43,-60.0,degC,5.0,True
+AL-00467,2026-05-26 08:00:00,NGU-C,PDI-310,coldbox_dp_kpa,Main exchanger pressure drop,H,13.91,13.5,kPa,4.0,True
+AL-00468,2026-05-26 09:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,5.34,5.0,ppm,3.0,True
+AL-00469,2026-05-26 10:00:00,NGU-C,AI-308,ppu_outlet_dewpoint_degC,PPU outlet dew point,HH,-46.77,-50.0,degC,2.0,True
+AL-00470,2026-05-26 10:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,HH,13.9,10.0,ppm,2.0,True
+AL-00471,2026-05-26 10:00:00,NGU-C,PDI-310,coldbox_dp_kpa,Main exchanger pressure drop,HH,15.2,15.0,kPa,2.0,True
+AL-00472,2026-06-03 19:00:00,NGU-A,AI-107,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.075,1.0,ppm,12.0,True
+AL-00473,2026-06-03 22:00:00,NGU-A,AI-107,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.123,2.0,ppm,9.0,True
+AL-00474,2026-06-04 00:00:00,NGU-A,AI-108,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-59.46,-60.0,degC,7.0,True
+AL-00475,2026-06-04 03:00:00,NGU-A,AI-108,ppu_outlet_dewpoint_degC,PPU outlet dew point,HH,-49.45,-50.0,degC,4.0,True
+AL-00476,2026-06-04 03:00:00,NGU-A,PDI-110,coldbox_dp_kpa,Main exchanger pressure drop,H,13.6,13.5,kPa,4.0,True
+AL-00477,2026-06-04 04:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.87,5.0,ppm,3.0,True
+AL-00478,2026-06-04 05:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,HH,17.12,10.0,ppm,2.0,True
+AL-00479,2026-06-04 06:00:00,NGU-A,PDI-110,coldbox_dp_kpa,Main exchanger pressure drop,HH,15.45,15.0,kPa,1.0,True
+AL-00480,2026-06-07 06:00:00,NGU-C,VI-313,expander_vibration_um,Turbo-expander shaft vibration,H,41.31,40.0,um,12.0,True
+AL-00481,2026-06-07 09:00:00,NGU-C,TI-312,expander_bearing_temp_degC,Turbo-expander bearing temperature,H,72.96,72.0,degC,9.0,True
+AL-00482,2026-06-07 13:00:00,NGU-C,VI-313,expander_vibration_um,Turbo-expander shaft vibration,HH,62.4,60.0,um,5.0,True
+AL-00483,2026-06-07 14:00:00,NGU-C,TI-312,expander_bearing_temp_degC,Turbo-expander bearing temperature,HH,82.44,82.0,degC,4.0,True
+AL-00484,2026-06-08 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,79.0,False
+AL-00485,2026-06-11 03:00:00,NGU-B,VI-213,expander_vibration_um,Turbo-expander shaft vibration,H,40.82,40.0,um,15.0,True
+AL-00486,2026-06-11 08:00:00,NGU-B,TI-212,expander_bearing_temp_degC,Turbo-expander bearing temperature,H,72.89,72.0,degC,10.0,True
+AL-00487,2026-06-11 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,157.0,False
+AL-00488,2026-06-11 12:00:00,NGU-B,VI-213,expander_vibration_um,Turbo-expander shaft vibration,HH,60.61,60.0,um,6.0,True
+AL-00489,2026-06-11 15:00:00,NGU-B,TI-212,expander_bearing_temp_degC,Turbo-expander bearing temperature,HH,83.42,82.0,degC,3.0,True
+AL-00490,2026-06-19 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,52.0,False
+AL-00491,2026-06-21 08:00:00,NGU-A,AI-107,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.299,1.0,ppm,7.0,True
+AL-00492,2026-06-21 10:00:00,NGU-A,AI-107,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.698,2.0,ppm,5.0,True
+AL-00493,2026-06-21 11:00:00,NGU-A,AI-108,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-56.44,-60.0,degC,4.0,True
+AL-00494,2026-06-21 13:00:00,NGU-A,AI-108,ppu_outlet_dewpoint_degC,PPU outlet dew point,HH,-47.31,-50.0,degC,2.0,True
+AL-00495,2026-06-21 13:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,HH,10.67,10.0,ppm,2.0,True
+AL-00496,2026-06-21 13:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,10.67,5.0,ppm,2.0,True
+AL-00497,2026-06-21 13:00:00,NGU-A,PDI-110,coldbox_dp_kpa,Main exchanger pressure drop,H,14.29,13.5,kPa,2.0,True
+AL-00498,2026-06-21 14:00:00,NGU-A,PDI-110,coldbox_dp_kpa,Main exchanger pressure drop,HH,15.38,15.0,kPa,1.0,True
+AL-00499,2026-06-23 09:00:00,NGU-B,TI-203,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,H,46.01,46.0,degC,3.0,True
+AL-00500,2026-06-23 11:00:00,NGU-B,TI-203,feed_air_discharge_temp_degC,Aftercooler outlet air temperature,HH,57.31,52.0,degC,1.0,True
+AL-00501,2026-06-25 17:00:00,NGU-C,AI-307,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.343,1.0,ppm,642.0,False
+AL-00502,2026-06-25 18:00:00,NGU-C,AI-307,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.257,2.0,ppm,641.0,False
+AL-00503,2026-06-25 19:00:00,NGU-C,AI-308,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-55.69,-60.0,degC,640.0,False
+AL-00504,2026-07-10 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,288.0,False
+AL-00505,2026-07-18 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,96.0,False
+AL-00506,2026-07-21 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,24.0,True
+AL-00507,2026-08-04 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,136.0,False
+AL-00508,2026-08-09 02:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,H,7.17,7.1,mm/s,25.0,True
+AL-00509,2026-08-09 10:00:00,NGU-B,AI-207,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.927,1.0,ppm,4.0,True
+AL-00510,2026-08-09 11:00:00,NGU-B,AI-207,ppu_outlet_co2_ppm,PPU outlet CO2,HH,3.316,2.0,ppm,3.0,True
+AL-00511,2026-08-09 11:00:00,NGU-B,AI-208,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-59.19,-60.0,degC,3.0,True
+AL-00512,2026-08-09 12:00:00,NGU-B,PDI-210,coldbox_dp_kpa,Main exchanger pressure drop,H,13.64,13.5,kPa,2.0,True
+AL-00513,2026-08-09 13:00:00,NGU-B,AI-208,ppu_outlet_dewpoint_degC,PPU outlet dew point,HH,-42.09,-50.0,degC,1.0,True
+AL-00514,2026-08-09 13:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,HH,28.73,10.0,ppm,1.0,True
+AL-00515,2026-08-09 13:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,28.73,5.0,ppm,1.0,True
+AL-00516,2026-08-09 13:00:00,NGU-B,PDI-210,coldbox_dp_kpa,Main exchanger pressure drop,HH,15.35,15.0,kPa,1.0,True
+AL-00517,2026-08-09 21:00:00,NGU-C,VI-305,compressor_vibration_mm_s,Feed air compressor bearing housing vibration,HH,11.18,11.0,mm/s,6.0,True
+AL-00518,2026-08-11 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,1019.0,False
+AL-00519,2026-09-10 05:00:00,NGU-C,AI-307,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.094,1.0,ppm,8.0,True
+AL-00520,2026-09-10 07:00:00,NGU-C,AI-307,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.282,2.0,ppm,6.0,True
+AL-00521,2026-09-10 09:00:00,NGU-C,AI-308,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-56.51,-60.0,degC,4.0,True
+AL-00522,2026-09-10 11:00:00,NGU-C,AI-308,ppu_outlet_dewpoint_degC,PPU outlet dew point,HH,-46.34,-50.0,degC,2.0,True
+AL-00523,2026-09-10 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,HH,12.66,10.0,ppm,2.0,True
+AL-00524,2026-09-10 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,12.66,5.0,ppm,2.0,True
+AL-00525,2026-09-10 11:00:00,NGU-C,PDI-310,coldbox_dp_kpa,Main exchanger pressure drop,H,14.12,13.5,kPa,2.0,True
+AL-00526,2026-09-10 12:00:00,NGU-C,PDI-310,coldbox_dp_kpa,Main exchanger pressure drop,HH,15.09,15.0,kPa,1.0,True
+AL-00527,2026-09-15 11:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,113.0,False
+AL-00528,2026-09-15 11:00:00,NGU-C,AI-316,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,144.0,False
+AL-00529,2026-09-19 21:00:00,NGU-A,AI-107,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.278,1.0,ppm,7.0,True
+AL-00530,2026-09-19 23:00:00,NGU-A,AI-107,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.71,2.0,ppm,5.0,True
+AL-00531,2026-09-20 00:00:00,NGU-A,AI-108,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-56.94,-60.0,degC,4.0,True
+AL-00532,2026-09-20 01:00:00,NGU-A,PDI-110,coldbox_dp_kpa,Main exchanger pressure drop,H,13.78,13.5,kPa,3.0,True
+AL-00533,2026-09-20 02:00:00,NGU-A,AI-108,ppu_outlet_dewpoint_degC,PPU outlet dew point,HH,-46.43,-50.0,degC,2.0,True
+AL-00534,2026-09-20 02:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,HH,10.57,10.0,ppm,2.0,True
+AL-00535,2026-09-20 02:00:00,NGU-A,AI-116,o2_content_ppm,O2 in product N2,H,10.57,5.0,ppm,2.0,True
+AL-00536,2026-09-20 03:00:00,NGU-A,PDI-110,coldbox_dp_kpa,Main exchanger pressure drop,HH,15.81,15.0,kPa,1.0,True
+AL-00537,2026-09-20 11:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,8.0,5.0,ppm,59.0,False
+AL-00538,2026-09-22 12:00:00,NGU-B,AI-207,ppu_outlet_co2_ppm,PPU outlet CO2,H,1.277,1.0,ppm,10.0,True
+AL-00539,2026-09-22 14:00:00,NGU-B,AI-207,ppu_outlet_co2_ppm,PPU outlet CO2,HH,2.173,2.0,ppm,8.0,True
+AL-00540,2026-09-22 15:00:00,NGU-B,AI-208,ppu_outlet_dewpoint_degC,PPU outlet dew point,H,-59.63,-60.0,degC,7.0,True
+AL-00541,2026-09-22 18:00:00,NGU-B,PDI-210,coldbox_dp_kpa,Main exchanger pressure drop,H,13.9,13.5,kPa,4.0,True
+AL-00542,2026-09-22 19:00:00,NGU-B,AI-208,ppu_outlet_dewpoint_degC,PPU outlet dew point,HH,-47.38,-50.0,degC,3.0,True
+AL-00543,2026-09-22 19:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,H,7.73,5.0,ppm,3.0,True
+AL-00544,2026-09-22 20:00:00,NGU-B,AI-216,o2_content_ppm,O2 in product N2,HH,16.04,10.0,ppm,2.0,True
+AL-00545,2026-09-22 21:00:00,NGU-B,PDI-210,coldbox_dp_kpa,Main exchanger pressure drop,HH,15.75,15.0,kPa,1.0,True
