@@ -6,7 +6,7 @@ Needs google-cloud-bigquery and application default credentials:
     gcloud auth application-default login
 
 Usage:
-    python src/load_to_bigquery.py --project your-gcp-project-id --dataset nitrochem_ngu --folder data/raw
+    python src/load_to_bigquery.py --project nitrogen-plant-operations --dataset nitrochem_ngu --folder data/raw
 """
 
 import argparse
@@ -37,7 +37,7 @@ def load_folder(folder, project, dataset, location="US"):
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--project", required=True)
+    ap.add_argument("--project", default="nitrogen-plant-operations")
     ap.add_argument("--dataset", default="nitrochem_ngu")
     ap.add_argument("--folder", type=Path, default=Path(__file__).resolve().parents[1] / "data" / "raw")
     ap.add_argument("--location", default="US")

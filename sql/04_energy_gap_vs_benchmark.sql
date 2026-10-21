@@ -8,7 +8,7 @@ WITH m AS (
     package_id,
     n2_production_nm3,
     SAFE_DIVIDE(power_consumption_kwh, n2_production_nm3) AS ei
-  FROM `your-gcp-project-id.nitrochem_ngu.fact_monthly_package`
+  FROM `nitrogen-plant-operations.nitrochem_ngu.fact_monthly_package`
 ),
 benchmark AS (
   SELECT month_start, ei AS ei_benchmark FROM m WHERE package_id = 'NGU-A'

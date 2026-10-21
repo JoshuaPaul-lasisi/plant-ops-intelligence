@@ -6,7 +6,7 @@ WITH by_mode AS (
     COUNT(*)        AS trips,
     SUM(downtime_h) AS downtime_h,
     AVG(downtime_h) AS mttr_h
-  FROM `your-gcp-project-id.nitrochem_ngu.fact_downtime_events`
+  FROM `nitrogen-plant-operations.nitrochem_ngu.fact_downtime_events`
   WHERE event_type = 'Unplanned'
   GROUP BY cause_category, failure_mode
 )

@@ -82,7 +82,7 @@ jupyter notebook notebooks/                      # run 01 to 05 in order
 To load to BigQuery, install `google-cloud-bigquery` and `pyarrow`, run `gcloud auth application-default login`, then either set `LOAD_TO_BIGQUERY = True` in notebooks 01 and 05, or run:
 
 ```bash
-python src/load_to_bigquery.py --project your-gcp-project-id --dataset nitrochem_ngu --folder data/processed
+python src/load_to_bigquery.py --project nitrogen-plant-operations --dataset nitrochem_ngu --folder data/processed
 ```
 
 The views in `sql/` use the same dataset name.

@@ -1,12 +1,12 @@
 -- High-risk days from the anomaly model, and whether an unplanned trip followed within 4 days.
 WITH high_risk AS (
   SELECT date, package_id, max_risk_ratio, alert_hours, flagged_system
-  FROM `your-gcp-project-id.nitrochem_ngu.fact_anomaly_daily`
+  FROM `nitrogen-plant-operations.nitrochem_ngu.fact_anomaly_daily`
   WHERE risk_level = 'High'
 ),
 trips AS (
   SELECT package_id, date AS trip_date, failure_mode
-  FROM `your-gcp-project-id.nitrochem_ngu.fact_downtime_events`
+  FROM `nitrogen-plant-operations.nitrochem_ngu.fact_downtime_events`
   WHERE event_type = 'Unplanned'
 )
 SELECT
