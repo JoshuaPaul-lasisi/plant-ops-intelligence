@@ -4,7 +4,7 @@ Two years of hourly operating data from the nitrogen generation unit of a fertil
 
 The plant is fictional (NitroChem Process Industries Limited, Port Harcourt) and the data is synthetic. See the data disclaimer at the end.
 
-![Model alert ahead of a compressor vibration trip](reports/figures/04_alert_example.png)
+![Power BI dashboard, overview page](reports/dashboard/1_overview.png)
 
 ## Problem
 
@@ -36,6 +36,8 @@ Then:
 4. Energy intensity climbs before mechanical trips, 8 to 12% in the last 12 hours, but only 3 to 4% a day out. It confirms a developing fault late; it does not give early warning on its own.
 5. Half of all alarm activations were not followed by a trip. NGU-C's aftercooler high-temperature alarm (TI-303) stands in alarm through most of the dry season. It is a nuisance alarm, and also the first clue to NGU-C's fouling problem.
 6. The N2 header ran short for 52 hours in two years, every one of them during a plant-wide power dip. The limit was vaporiser capacity (2,500 Nm3/h against about 2,700 Nm3/h demand), not LIN stock.
+
+![Model alert ahead of a compressor vibration trip](reports/figures/04_alert_example.png)
 
 ![Warning time, model against DCS alarms](reports/figures/04_model_vs_dcs_lead_time.png)
 
@@ -69,6 +71,7 @@ docs/
   powerbi_theme.json                report colours
   data_dictionary.md                every table and tag
 reports/figures/                    charts saved by the notebooks
+reports/dashboard/                  Power BI pages as PNG and PDF
 ```
 
 ## How to run
@@ -89,12 +92,20 @@ The views in `sql/` use the same dataset name.
 
 ## Power BI dashboard
 
-Four pages, built from `data/processed/`:
+Four pages, built on the star schema in `data/processed/` (also loaded to BigQuery). The month and package slicers are synced across pages. A PDF of all four pages is in [reports/dashboard](reports/dashboard/nitrogen_ops_dashboard.pdf).
 
-1. Overview: production, downtime, OEE and energy intensity cards for the selected month, OEE trend, LIN tank level.
-2. Downtime analysis: hours by package and cause, 24-month trend, failure mode Pareto, MTBF and MTTR.
-3. Energy efficiency: energy intensity trend, running hours against energy, gap to NGU-A in naira with an adjustable power cost.
-4. Anomaly alerts: daily risk score by package, high-risk days, alert list with outcomes.
+1. Overview: N2 production, OEE, unplanned downtime, trips, energy intensity and N2 shortfall hours; monthly OEE by package; daily lowest LIN tank level.
+2. Downtime analysis: MTBF and MTTR, monthly unplanned downtime, hours by package and cause, failure mode Pareto, and a slicer for gradual against sudden failures.
+3. Energy efficiency: monthly energy intensity by package, gap to NGU-A, daily running hours against energy, and the excess energy cost in naira with an adjustable power cost.
+4. Anomaly alerts: test period only. Daily peak risk ratio against the alert threshold, alerts before trips, false alarms, and the high-risk days table.
+
+The excess cost card on page 3 reads about N93 million at N150/kWh. That is higher than the N39 million a year in the findings because the card covers both years, includes NGU-B's small gap, and counts startup hours, where notebook 03 used steady running only.
+
+![Downtime analysis page](reports/dashboard/2_downtime_analysis.png)
+
+![Energy efficiency page](reports/dashboard/3_energy_efficiency.png)
+
+![Anomaly alerts page](reports/dashboard/4_anomaly_alerts.png)
 
 The model, DAX measures and layout are in [docs/powerbi_build_guide.md](docs/powerbi_build_guide.md).
 
