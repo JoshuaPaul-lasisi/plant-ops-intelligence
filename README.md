@@ -72,6 +72,7 @@ docs/
   data_dictionary.md                every table and tag
 reports/figures/                    charts saved by the notebooks
 reports/dashboard/                  Power BI pages as PNG and PDF
+powerbi/nitrogen_ops_dashboard.pbix the Power BI report (open in Power BI Desktop)
 ```
 
 ## How to run
@@ -107,7 +108,7 @@ The excess cost card on page 3 reads about N93 million at N150/kWh. That is high
 
 ![Anomaly alerts page](reports/dashboard/4_anomaly_alerts.png)
 
-The model, DAX measures and layout are in [docs/powerbi_build_guide.md](docs/powerbi_build_guide.md).
+The report file is [powerbi/nitrogen_ops_dashboard.pbix](powerbi/nitrogen_ops_dashboard.pbix). The model, DAX measures and layout are in [docs/powerbi_build_guide.md](docs/powerbi_build_guide.md).
 
 ## Tools
 
