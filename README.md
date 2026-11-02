@@ -35,7 +35,7 @@ Then:
 3. The other 12 test trips were sudden failures that leave no trace in process data. No model built on this data can catch them; they are a job for electrical protection and maintenance strategy. (The one sudden trip counted as caught was an unrelated alert that happened to fall in the window.)
 4. Energy intensity climbs before mechanical trips, 8 to 12% in the last 12 hours, but only 3 to 4% a day out. It confirms a developing fault late; it does not give early warning on its own.
 5. Half of all alarm activations were not followed by a trip. NGU-C's aftercooler high-temperature alarm (TI-303) stands in alarm through most of the dry season. It is a nuisance alarm, and also the first clue to NGU-C's fouling problem.
-6. The N2 header ran short for 52 hours in two years, every one of them during a plant-wide power dip. The limit was vaporiser capacity (2,500 Nm3/h against about 2,700 Nm3/h demand), not LIN stock.
+6. The N2 header ran short for 44 hours in two years, every one of them during a plant-wide power dip. The limit was vaporiser capacity (2,500 Nm3/h against about 2,700 Nm3/h demand), not LIN stock.
 
 ![Model alert ahead of a compressor vibration trip](reports/figures/04_alert_example.png)
 

@@ -431,7 +431,9 @@ def package_signals(pk, n_running, rng, hours):
 
 def plant_balance(hourly, demand, hours, rng):
     """N2 header balance: packages first, then LIN vaporiser, then shortfall."""
-    supply = hourly.pivot(index="timestamp", columns="package_id", values="product_n2_flow_nm3h").fillna(0.0)
+    # A historian gap is missing data, not zero flow: fill it from the neighbouring hours.
+    supply = hourly.pivot(index="timestamp", columns="package_id", values="product_n2_flow_nm3h")
+    supply = supply.interpolate(limit_direction="both").fillna(0.0)
     steady = hourly.pivot(index="timestamp", columns="package_id", values="operating_state").eq("RUN")
     gas = supply.sum(axis=1).to_numpy()
     lin_make = steady.sum(axis=1).to_numpy() * LIN_MAKE_NM3H
